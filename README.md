@@ -20,8 +20,8 @@ func start
 To publish
 
 ```ps
-az logi
+az login
 # in project root folder
 # Assumes the above environment variables are set in the Azure Function 
-func azure functionapp publish <name of <FuncName>
+func azure functionapp publish name_of_FuncName
 ```
